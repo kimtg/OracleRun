@@ -16,3 +16,6 @@ javac src/Main.java
 ```
 java -cp bin;bin/ojdbc*.jar Main
 ```
+
+## License
+Public domain
