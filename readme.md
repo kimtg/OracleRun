@@ -9,12 +9,18 @@ Oracle JDBC driver (Put ojdbc*.jar to bin/.)
 
 ## Compile
 ```
-javac src/Main.java
+javac src/OracleRun.java
 ```
 
 ## Run
+Unix:
 ```
-java -cp bin;bin/ojdbc*.jar Main
+java -cp bin:bin/ojdbc*.jar OracleRun
+```
+
+Windows:
+```
+java -cp bin;bin/ojdbc*.jar OracleRun
 ```
 
 ## License
