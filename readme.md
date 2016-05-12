@@ -4,6 +4,9 @@ Read Oracle SQL file and execute line by line.
 
 Generate output file as TSV (tab-separated value) file.
 
+## Author
+KIM Taegyoon
+
 ## Requirement
 Oracle JDBC driver (Put ojdbc*.jar to bin/.)
 
