@@ -16,7 +16,7 @@ public class OracleRun {
 		System.out.print("DB IP: ");
 		db_ip = in.readLine();
 		
-		System.out.print("DB port(e.g. 1521): ");
+		System.out.print("DB port (e.g. 1521): ");
 		db_port = in.readLine();
 		
 		System.out.print("DB SID: ");
