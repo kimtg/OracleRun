@@ -13,22 +13,22 @@ public class OracleRun {
 		String db_password;
 		final String inputFile;
 		
-		System.out.print("DB IP: ");
+		System.err.print("DB IP: ");
 		db_ip = in.readLine();
 		
-		System.out.print("DB port (e.g. 1521): ");
+		System.err.print("DB port (e.g. 1521): ");
 		db_port = in.readLine();
 		
-		System.out.print("DB SID: ");
+		System.err.print("DB SID: ");
 		db_sid = in.readLine();
 		
-		System.out.print("DB User: ");
+		System.err.print("DB User: ");
 		db_user = in.readLine();
 		
-		System.out.print("DB Password: ");
+		System.err.print("DB Password: ");
 		db_password = in.readLine();
 
-		System.out.print("Input SQL file: ");
+		System.err.print("Input SQL file: ");
 		inputFile = in.readLine();
 		
 		// "jdbc:oracle:thin:@IP:PORT:SID";
